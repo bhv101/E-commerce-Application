@@ -1,9 +1,9 @@
 const products = [
-    {name:"Laptop, price : 1200, category: Electronics"},
-    {name: "T-shirt", price: 25, category: "Clothing"},
-    {name: "Coffee Mug", price: 10, category: "Home & Kitchen"},
-    {name: "Headphones", price: 100, category: "Electronics"},
-    {name: "Sneakers", price: 80, category: "Clothing"}
+    {name:"Laptop", price : 1900, category: "laptop", image: "images/Laptopa.jpg"},
+    {name: "Handphones", price: 1000, category: "handphones", image: "images/Handphones.jpg"},
+    {name: "Monitor", price: 500, category: "monitor", image: "images/Monitor.jpg"},
+    {name: "Headphones", price: 300, category: "headphones", image: "images/Headphones.jpg"},
+    {name: "Others", price: 80, category: "others", image: "images/others.jpg"}
 ]
 
 const productsDiv = document.getElementById("products");
